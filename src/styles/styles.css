@@ -1,13 +1,22 @@
+@import "reset.css";
 @import "fonts.scss";
 
-
-
-.lol {
-    color:blue;
-    background-image: url(../assets/images/crash.jpg);
-    background-size: cover;
-    height: 200px;
-    width: 300px;
-    margin: 0 auto;
-    font-family: "Roboto";
+html {
+    box-sizing: border-box;
 }
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+
+
+body {
+    background-color:#E5E5E5;
+    color: #544848;
+}
+
+.container {
+    max-width: 1040px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
